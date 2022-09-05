@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.14.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Client">
+            <fields>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="taxNumber" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Invoice">
+            <fields>
+                <field type="LOCALDATETIME" length="255" name="creationDate" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="createdBy" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="summary" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="taxNumber" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="clientName" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.InvoiceLine" fetchType="EAGER" name="lines" nullable="true" collection="true"/>
+                <field type="BOOLEAN" length="255" name="isApproved" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.InvoiceLine">
+            <fields>
+                <field type="STRING" length="255" name="label" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="hours" nullable="false" collection="false"/>
+                <field type="FLOAT" length="255" name="cost" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ProjectExecution">
+            <fields>
+                <field type="LONG" length="255" name="idprojectManager" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="clientId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="teamMembers" nullable="true" collection="true"/>
+                <field type="STRING" length="255" name="mettingRegistrationPManager" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="projectDelivery" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="timeDeviation" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="priceDeviation" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ProjectProposal">
+            <fields>
+                <field type="BOOLEAN" length="255" name="isStandard" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="price" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="meetingRegisted" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="projectDescription" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isSigned" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="proposalElaborated" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="projectRequirements" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="moreMeetingRequired" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="technicalProposal" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Client" fetchType="EAGER" name="client" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="createdBy" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.SupportContract">
+            <fields>
+                <field type="LONG" length="255" name="managerId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="clientId" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="description" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="startDate" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="endDate" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.SupportProposal">
+            <fields>
+                <field type="LONG" length="255" name="createdBy" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.Client" fetchType="EAGER" name="client" nullable="true" collection="false"/>
+                <field type="DOUBLE" length="255" name="price" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="meetingDateTime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="description" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="proposal" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="requirements" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isSigned" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

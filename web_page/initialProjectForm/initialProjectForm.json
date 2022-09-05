@@ -1,0 +1,45 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "initialProjectForm",
+  "name" : "initialProjectForm",
+  "lastUpdate" : 1654028026206,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "04b17ec7-e174-45e1-b350-3a31a45b4d8a",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "7a08c5e1-ba54-40f2-ab03-7e1e60ff683f",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "12f4be75-c2c0-4446-840c-130720ec4177",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "cf0cbc00-bf29-4df6-84cc-89710f1ccbb3",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

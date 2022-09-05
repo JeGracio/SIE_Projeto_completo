@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="XPTO" description="">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="ProjectSales2">
+      <firstName>ProjectSales2</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Project Commercial</jobTitle>
+      <manager>mauro.zetticci</manager>
+      <personalData/>
+      <professionalData>
+        <email>william.jobs@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ProjectDev">
+      <firstName>Dev</firstName>
+      <lastName></lastName>
+      <title>Mrs</title>
+      <jobTitle>Project Dev</jobTitle>
+      <manager>michael.morrison</manager>
+      <personalData/>
+      <professionalData>
+        <email>april.sanchez@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="SupportDev2">
+      <firstName>SupportDev2</firstName>
+      <lastName></lastName>
+      <title>Mrs</title>
+      <jobTitle>Support Dev</jobTitle>
+      <manager>misa.kumagai</manager>
+      <personalData/>
+      <professionalData>
+        <email>helen.kelly@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ProjectSales">
+      <firstName>ProjectSales</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Project Commercial</jobTitle>
+      <manager>mauro.zetticci</manager>
+      <personalData/>
+      <professionalData>
+        <email>walter.bates@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ProjectPreSales2">
+      <firstName>ProjectPreSales</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Commercial</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>patrick.gardenier@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="SupportSales">
+      <firstName>Sales</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Support Commercial</jobTitle>
+      <manager>marc.marseau</manager>
+      <personalData/>
+      <professionalData>
+        <email>jan.fisher@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="SupportDev3">
+      <firstName>SupportDev3</firstName>
+      <lastName></lastName>
+      <title>Mrs</title>
+      <jobTitle>Support Dev </jobTitle>
+      <manager>misa.kumagai</manager>
+      <personalData/>
+      <professionalData>
+        <email>isabel.bleasdale@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ProjectDev3">
+      <firstName>Dev3</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Project Dev</jobTitle>
+      <manager>michael.morrison</manager>
+      <personalData/>
+      <professionalData>
+        <email>favio.riviera@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="SupportSalesDirector">
+      <firstName>S.SalesDirector</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Director</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>marc.marseau@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Finance">
+      <firstName>Finance</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Accountant</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>joseph.hovell@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ProjectDev2">
+      <firstName>Dev2</firstName>
+      <lastName></lastName>
+      <title>Mrs</title>
+      <jobTitle>Project Dev</jobTitle>
+      <manager>helen.kelly</manager>
+      <personalData/>
+      <professionalData>
+        <email>daniela.angelo@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="SupportClientManager">
+      <firstName>S.ClientManager</firstName>
+      <lastName></lastName>
+      <title></title>
+      <jobTitle>Client manager</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>anthony.nichols@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="ProjectPreSales">
+      <firstName>ProjectPreSales</firstName>
+      <lastName></lastName>
+      <title>Mr</title>
+      <jobTitle>Commercial</jobTitle>
+      <manager></manager>
+      <personalData/>
+      <professionalData>
+        <email>norio.yamazaki@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="SupportDev">
+      <firstName>SupportDev</firstName>
+      <lastName></lastName>
+      <title>Mrs</title>
+      <jobTitle>Support Dev</jobTitle>
+      <manager>misa.kumagai</manager>
+      <personalData/>
+      <professionalData>
+        <email>giovanna.almeida@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="member">
+      <displayName>Member</displayName>
+    </role>
+    <role name="director">
+      <displayName>Director</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="xpto">
+      <displayName>XPTO</displayName>
+    </group>
+    <group name="finance" parentPath="/xpto">
+      <displayName>Finance</displayName>
+    </group>
+    <group name="project" parentPath="/xpto">
+      <displayName>Project</displayName>
+    </group>
+    <group name="sales" parentPath="/xpto/project">
+      <displayName>Sales</displayName>
+    </group>
+    <group name="development" parentPath="/xpto/project">
+      <displayName>Development</displayName>
+    </group>
+    <group name="support" parentPath="/xpto">
+      <displayName>Support</displayName>
+    </group>
+    <group name="sales" parentPath="/xpto/support">
+      <displayName>Sales</displayName>
+    </group>
+    <group name="development" parentPath="/xpto/support">
+      <displayName>Development</displayName>
+    </group>
+    <group name="client_management" parentPath="/xpto/support">
+      <displayName>Client Management</displayName>
+    </group>
+    <group name="pre_sales" parentPath="/xpto/project">
+      <displayName>Pre Sales</displayName>
+    </group>
+    <group name="pre_sales" parentPath="/xpto/support">
+      <displayName>Pre Sales</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>SupportClientManager</userName>
+      <roleName>member</roleName>
+      <groupName>client_management</groupName>
+      <groupParentPath>/xpto/support</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ProjectSales</userName>
+      <roleName>member</roleName>
+      <groupName>sales</groupName>
+      <groupParentPath>/xpto/project</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ProjectDev</userName>
+      <roleName>member</roleName>
+      <groupName>development</groupName>
+      <groupParentPath>/xpto/project</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ProjectDev2</userName>
+      <roleName>member</roleName>
+      <groupName>development</groupName>
+      <groupParentPath>/xpto/project</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ProjectDev3</userName>
+      <roleName>member</roleName>
+      <groupName>development</groupName>
+      <groupParentPath>/xpto/project</groupParentPath>
+    </membership>
+    <membership>
+      <userName>SupportDev</userName>
+      <roleName>member</roleName>
+      <groupName>development</groupName>
+      <groupParentPath>/xpto/support</groupParentPath>
+    </membership>
+    <membership>
+      <userName>SupportDev2</userName>
+      <roleName>member</roleName>
+      <groupName>development</groupName>
+      <groupParentPath>/xpto/support</groupParentPath>
+    </membership>
+    <membership>
+      <userName>SupportDev3</userName>
+      <roleName>member</roleName>
+      <groupName>development</groupName>
+      <groupParentPath>/xpto/support</groupParentPath>
+    </membership>
+    <membership>
+      <userName>SupportSales</userName>
+      <roleName>member</roleName>
+      <groupName>sales</groupName>
+      <groupParentPath>/xpto/support</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Finance</userName>
+      <roleName>member</roleName>
+      <groupName>finance</groupName>
+      <groupParentPath>/xpto</groupParentPath>
+    </membership>
+    <membership>
+      <userName>SupportSalesDirector</userName>
+      <roleName>director</roleName>
+      <groupName>sales</groupName>
+      <groupParentPath>/xpto/support</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ProjectSales2</userName>
+      <roleName>member</roleName>
+      <groupName>sales</groupName>
+      <groupParentPath>/xpto/project</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ProjectPreSales</userName>
+      <roleName>member</roleName>
+      <groupName>pre_sales</groupName>
+      <groupParentPath>/xpto/project</groupParentPath>
+    </membership>
+    <membership>
+      <userName>ProjectPreSales2</userName>
+      <roleName>member</roleName>
+      <groupName>pre_sales</groupName>
+      <groupParentPath>/xpto/support</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>

@@ -1,0 +1,153 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "clientMeetingOverview",
+  "name" : "clientMeetingOverview",
+  "lastUpdate" : 1653706719412,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "c8154d49-38fd-426b-98a3-656fcfe220ca",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 1
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Name Client Input"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.nameClientInput"
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "c1137744-bbff-4c54-a3e7-073cfbb04121",
+              "hasValidationError" : false,
+              "id" : "pbInput",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Product Demonstration"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.productDemonstration"
+                }
+              },
+              "reference" : "9abb37f3-36f0-4a53-9a51-a95166380f7a",
+              "hasValidationError" : false,
+              "id" : "pbCheckbox",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "a350f29e-75ed-452a-87e6-3c3fd683dd31",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "c1a5d9e8-0152-474a-85e9-db7d968a49d6",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "39f31c41-b7fc-4553-8f65-3608de96f178",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}

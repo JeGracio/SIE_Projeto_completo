@@ -1,0 +1,58 @@
+{
+  "modelVersion" : "2.2",
+  "id" : "overview",
+  "name" : "overview",
+  "lastUpdate" : 1654019110996,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "3c0aad07-4afc-4e06-930b-66a5105950a0",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [ ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "a383ee6d-df43-47d6-9aca-6c1be04c3c7e",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "527094cd-0ae2-40e7-8616-6a8ebc5f4c5d",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : { },
+  "hasValidationError" : false,
+  "uuid" : "64f3e700-61f5-4c5f-bb14-dd67a85a2547",
+  "type" : "form",
+  "description" : "Page generated with Bonita UI designer"
+}
